@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+  
+  head{
+    display: grid;
+    grid-column:1/5;
+    justify-items: center;
+  }
+  
+  
+  .wrapper {
+      display: grid;
+      grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-gap: 3vw;
+    
+  }
+  
+  .wrapper > * {
+      grid-column: 2 / 4;
+      grid-gap: 3vh;
+  }
+  
+  #title-div {
+    padding-top: 3vh;
+    justify-self: center;
+    justify-items: center;
+    font-size: 24px;
+    display: grid;
+    padding: 5vh;
+  }
+  
+  #title{
+    justify-self: center;
+    padding: 3vh;
+  }
+  
+  .title-quote{
+    padding: .5vh;
+    font-size: 1.5rem;
+    color: #A99692;
+  }
+  
+  #image{
+    width: 100%;
+  }
+  
+  #img-div{
+    justify-self: center;
+  }
+  
+  #img-caption{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #A99692
+  }
+  
+  #bio-paragraph{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0;
+    margins: 0;
+  }
+  
+  #bio-paragraph > * {
+    grid-column: 1/5;
+    justify-self: center;
+  }
+  
+  #bio1-title{
+    font-size: 32px;
+  }
+  
+  #bio1-p{
+    font-size: 18px;
+  }
+  
+  #timeline{
+    display: grid;
+    padding-bottom: 6vh;
+  }
+  
+  #timeline-title{
+    grid-column: 1/3;
+    justify-self: center;
+    font-size: 32px;
+    padding: 0vh;
+  }
+  
+  dl {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
+    overflow: hidden;
+  }
+  
+  dt{
+    grid-column: 1/2;
+    justify-self: end;
+    font-weight: bold;
+  }
+  dd{
+    grid-column: 2/3;
+  }
+  
+  footer{
+    display: inline-block;
+    display: grid;
+    grid-column: 1/5;
+    background-color: #272b30;
+    justify-items: center;
+    color: white;
+    padding: 5vh 5vw;
+    margin: 0;
+  }
+  
+  .footerh2{
+    font-size: 24px;
+    grid-column: 1/5;
+    padding:2vh;
+  }
+  
+  .footerp{
+    grid-column: 1/5;
+    padding: 2vh;
+  }
+  
+  #gracie-link{
+    color: white;
+  }
+  

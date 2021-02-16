@@ -60,7 +60,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 0;
-    margins: 0;
+    margin: 0;
   }
   
   #bio-paragraph > * {
@@ -98,7 +98,7 @@
   
   dt{
     grid-column: 1/2;
-    justify-self: end;
+    justify-self: center;
     font-weight: bold;
   }
   dd{
